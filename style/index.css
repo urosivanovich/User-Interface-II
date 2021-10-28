@@ -1,1 +1,135 @@
 /* Add CSS styling here */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+    max-width:100%;
+    border:1px solid grey;
+}
+
+/*General Styles*/
+html{
+    font-size:62.5%;
+}
+body{
+    font-size:1.8rem;
+    line-height:1.5;
+    color:#4f4f4f;
+    background-color:#FBFFFB;
+    font-family: 'Architects Daughter', cursive;;
+}
+
+header {
+    background-color: #EABC09;
+    
+}
+
+nav {
+    
+    margin-left: 4rem;
+    display:flex;
+    justify-content: space-around;
+    width:50%;
+    top:0;
+    background-color:#A4E6F6
+}
+
+nav a {
+    text-decoration: none;
+    display: flex;
+    justify-content: stretch;
+    color: #5D71DB;
+    font-size: 2.5rem;
+}
+
+h1 {
+    margin-top: 3rem;
+    margin-left: 3rem;
+    color: #5D71DB;
+    width: 50%;
+    font-size: 5rem;
+    letter-spacing: 2px;
+}
+
+h3 {
+    font-size:3.5rem;
+}
+main {
+    width: 100%;
+    padding: 3rem;
+
+    display: flex;
+    
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.left img {
+    width: 50%;
+    height: 50%;
+    border-radius: 25%;
+    margin-left:25%;
+    
+}
+.right {
+    margin: 5%;
+    text-align:left
+}
+
+
+
+
+button {
+    font-family: 'Architects Daughter', cursive;
+    font-size:1.6rem;
+    padding:2% 4%;
+    margin-top:4%;
+    margin-bottom: 4%;
+}
+
+section {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-around;
+    
+}
+
+section div {
+    width: 25%;
+    height: auto;
+}
+
+
+footer {
+    text-align:center;
+    background-color: #EABC09;
+}
+
+footer h3 {
+    margin-top: 3rem;;
+}
