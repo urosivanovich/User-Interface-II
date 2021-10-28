@@ -29,7 +29,7 @@ footer, header, hgroup, menu, nav, section {
     padding:0;
     margin:0;
     max-width:100%;
-    border:1px solid grey;
+    /* border:1px solid grey; */
 }
 
 /*General Styles*/
@@ -41,11 +41,12 @@ body{
     line-height:1.5;
     color:#4f4f4f;
     background-color:#FBFFFB;
-    font-family: 'Architects Daughter', cursive;;
+    font-family: 'Architects Daughter', cursive;
+    
 }
 
 header {
-    background-color: #EABC09;
+    background-image: linear-gradient(to bottom right, #18BEB0,#041D1B);
     
 }
 
@@ -54,7 +55,7 @@ nav {
     margin-left: 4rem;
     display:flex;
     justify-content: space-around;
-    width:50%;
+    width:auto;
     top:0;
     background-color:#A4E6F6
 }
@@ -70,10 +71,15 @@ nav a {
 h1 {
     margin-top: 3rem;
     margin-left: 3rem;
-    color: #5D71DB;
+    color: white;
     width: 50%;
     font-size: 5rem;
     letter-spacing: 2px;
+    font-family: 'Changa', sans-serif;
+}
+
+h1 span {
+    font-weight: bolder;
 }
 
 h3 {
@@ -90,10 +96,12 @@ main {
 }
 
 .left img {
+    object-fit: cover;
     width: 50%;
     height: 50%;
     border-radius: 25%;
     margin-left:25%;
+    
     
 }
 .right {
@@ -115,21 +123,40 @@ button {
 section {
     display: flex;
     flex-flow: wrap;
-    justify-content: space-around;
-    
+    justify-content: space-evenly
 }
 
 section div {
-    width: 25%;
+    object-fit: cover;
+    width: 33%;
     height: auto;
+    
+    
+}
+
+section div:hover {
+    box-shadow: 0 0 6px rgb(34, 23, 23);
 }
 
 
 footer {
     text-align:center;
-    background-color: #EABC09;
+    background-image: linear-gradient(to bottom right, #18BEB0,#041D1B);
 }
 
-footer h3 {
-    margin-top: 3rem;;
-}
+.button {
+    background-color: grey;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    margin: 5%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px;
+  }
+
+  .button p {
+      color: black;
+  }
