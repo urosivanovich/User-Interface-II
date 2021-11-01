@@ -233,4 +233,9 @@ footer {
         width: 40%;
     }
 
+    @media (max-width: 360px) {
+        nav {
+        width: 30%;
+        }
+    }
   }
